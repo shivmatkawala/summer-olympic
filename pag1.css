@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: pink;
+}
+
+.myresort{
+    height: 500px;
+    width: auto;
+    background-color: red;
+    background-image: url(./images/myresort.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.myresort header{
+    height:100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.myresort header .logo{
+    height: 100%;
+    width: 50%;
+}
+
+.myresort header .logo img{
+    height: 100%;
+    width: auto;
+    padding-left: 30px;
+}
+
+.myresort header .menubar{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.myresort header .menubar button{
+    width: 100px;
+    height:40px;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    transition: transform ease 0.5s;
+}
+
+.myresort header .menubar button:hover{
+    transform: scale(1.2);
+
+}
+
+
+.myresort header .menubar a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+
+}
+
